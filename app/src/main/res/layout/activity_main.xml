@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/zod"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SEE YOUR ZODIAC"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIGN"
+            android:textSize="40sp"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:layout_marginTop="15dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HERE"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp">
+        </TextView>
+
+        <Button
+            android:id="@+id/btn_select_date"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SELECT DATE"
+            android:textSize="20sp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            >
+        </Button>
+
+        <TextView
+            android:id="@+id/your_zodiac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="YOUR ZODIAC SIGN IS "
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/your_zodiac_sign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="CapriCorn "
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/zodiac_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="image"
+            android:background="@color/white"
+            android:padding="40dp"
+            android:layout_marginTop="20dp">
+        </ImageView>
+    </LinearLayout>
+
+</LinearLayout>
